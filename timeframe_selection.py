@@ -5,8 +5,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 october_data_path = './data/october_RAW.csv'
-november_data_path = './data/november-raw-27,11.csv'
-raw_data = pd.read_csv(november_data_path, parse_dates=['UTC Date/Time'])
+november_data_path = './data/november_RAW.csv'
+raw_data = pd.read_csv(october_data_path, parse_dates=['UTC Date/Time'])
 
 
 ## select useful columns
